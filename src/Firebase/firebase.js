@@ -1,14 +1,13 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDUr_Pi4bJeuwchfdjf6wh-zmSd24I3W7I",
-    authDomain: "airbnb-app-f6745.firebaseapp.com",
-    databaseURL: "https://airbnb-app-f6745.firebaseio.com",
-    projectId: "airbnb-app-f6745",
-    storageBucket: "airbnb-app-f6745.appspot.com",
-    messagingSenderId: "754894238925",
-    appId: "1:754894238925:web:eb60768ef526b9b57be584",
-    measurementId: "G-KS59LLWGRG"
+  apiKey: "AIzaSyBu-n9R4MZWpkl1bQnsnsbvA1rNZbzv9rQ",
+  authDomain: "airbnb-clone-3b98b.firebaseapp.com",
+  projectId: "airbnb-clone-3b98b",
+  storageBucket: "airbnb-clone-3b98b.appspot.com",
+  messagingSenderId: "579133266374",
+  appId: "1:579133266374:web:8d74e2f81c21199e3cfac7",
+  measurementId: "G-S66EQJGCJM",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
