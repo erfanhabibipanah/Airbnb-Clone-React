@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="footer">
       <p>
-        © 2021 Erfan Habibi Panah Fard | This is a Clone App inspired by AirBnB!
+        © 2021 Erfan Habibi Panah Fard | This is a Clone App inspired by Airbnb
       </p>
       <p>Privacy · Terms · Sitemap · Company Details</p>
     </div>
