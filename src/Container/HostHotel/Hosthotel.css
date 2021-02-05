@@ -1,0 +1,62 @@
+.host__home{
+    display: grid;
+    place-items: center;
+    margin-bottom: 2rem;
+}
+.host{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.7),
+    6px 0 20px white;
+    padding: 1rem;   
+}
+
+.host > *{
+    margin-bottom: 1rem;
+}
+
+.host > h2{
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #f72e31;
+    text-transform: uppercase;
+}
+
+.host > p{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: lightgray;
+}
+
+.host__image{
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+    margin-left: 2rem;
+}
+
+.host__powered{
+    display: flex;
+    align-items: center;
+}
+
+.host__powered > h4{
+    font-weight: 800;
+    font-size: 1.6rem;
+    color: #ff7779;
+}
+
+.host__submitbutton{
+    color: white !important;
+    background-color: #ff7779 !important;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+}
+
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

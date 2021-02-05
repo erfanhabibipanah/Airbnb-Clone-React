@@ -1,0 +1,22 @@
+.explore__info{
+    padding: 2rem;
+    position: sticky;
+    top: 10rem;
+    z-index: 100;
+    background-image: linear-gradient(to bottom,white 0%,white 80%,rgba(0,0,0,0) 100%);
+}
+
+.explore__info > p{
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.explore__info > h1{
+    margin-bottom: 2rem;
+}
+
+.explore__info > button{
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+}

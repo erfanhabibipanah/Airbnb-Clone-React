@@ -1,0 +1,37 @@
+.login__home{
+    display: grid;
+    place-items: center;
+    margin-bottom: 2rem;
+}
+
+.login{
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.7),
+    6px 0 20px white;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.login > h1{
+    color: #ff7779 !important;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 2rem ;
+}
+
+.login__image{
+    height: 300px;
+    object-fit: contain;
+    margin-bottom: 2rem ;
+}
+
+.login__button{
+    background-color: white !important;
+    color: #ff7779 !important;
+    padding: 0.5rem !important;
+    font-weight: 800 !important;
+    margin-bottom: 6rem !important;
+}

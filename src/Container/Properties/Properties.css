@@ -1,0 +1,9 @@
+.properties{
+    padding: 1rem;
+}
+
+.properties:hover > div > *:not(:hover){
+    transform: scale(0.94);
+    opacity: 0.6;
+    transition: all 100ms ease-in;
+}
